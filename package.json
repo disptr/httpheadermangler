@@ -1,0 +1,27 @@
+{
+	"name": "httpheadermangler", 
+	"id": "se.patriarkatet.firefox.extensions.httpheadermangler",
+
+	"title": "HTTP Header Mangler", 
+	"version": "1.0", 
+	"license": "MPL 2.0", 
+	"author": "Peter Nilsson <disptr@patriarkatet.se>", 
+
+	"description": "HTTP Header Mangler inserts HTTP headers on a per host basis.",
+	"homepage": "https://github.com/disptr/httpheadermangler",
+
+	"preferences":
+	[
+		{
+			"type": "file",
+			"name": "rules_file",
+			"title": "Rules File"
+		},
+		{
+			"type": "control",
+			"name": "rules_file_update",
+			"title": "Update from Rules File",
+			"label": "Update"
+		}
+	]
+}
