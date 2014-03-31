@@ -1,0 +1,27 @@
+{
+	"name": "httpheadermangler", 
+	"id": "45d6927b-d527-4008-b904-917251628b2b",
+
+	"title": "HTTP Header Mangler", 
+	"version": "1.0", 
+	"license": "MPL 2.0", 
+	"author": "Peter Nilsson <disptr@patriarkatet.se>", 
+
+	"description": "HTTP Header Mangler inserts HTTP headers on a per site basis.",
+	"homepage": "https://github.com/disptr/httpheadermangler",
+
+	"preferences":
+	[
+		{
+			"type": "file",
+			"name": "rules_file",
+			"title": "Rules File"
+		},
+		{
+			"type": "control",
+			"name": "rules_file_update",
+			"title": "Update from Rules File",
+			"label": "Update"
+		}
+	]
+}
