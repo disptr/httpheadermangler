@@ -3,7 +3,7 @@
 	"id": "se.patriarkatet.firefox.extensions.httpheadermangler",
 
 	"title": "HTTP Header Mangler", 
-	"version": "1.0", 
+	"version": "1.1", 
 	"license": "MPL 2.0", 
 	"author": "Peter Nilsson <disptr@patriarkatet.se>", 
 
