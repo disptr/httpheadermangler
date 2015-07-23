@@ -30,6 +30,10 @@ Whitespace at the beginning and the end of a line is ignored. Consequently, inde
 	.*regexp\d+
 	# This is a comment.
 	X-Forwarded-For=10.11.12.13
+	
+	# Delete headers using "" or ''.
+	X-Forwarded-For=""
+	X-Forwarded-For=''
 
 		# Indentation is allowed.
 		foobar
