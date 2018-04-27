@@ -6,6 +6,10 @@ Matching hosts is done with either simple strings or regular expressions.
 
 Rules can have multiple headers apply to multiple hosts, or simply insert a single header for a single host. 
 
+## Installation
+
+Using Firefox, install it from https://addons.mozilla.org/en-US/firefox/addon/http-header-mangler/.
+
 ## How to write rules
 
 A rule is made up of contiguous lines of text.
