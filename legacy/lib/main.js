@@ -1,6 +1,6 @@
 /**
  * 
- *    HTTP Header Mangler, v. 1.1
+ *    HTTP Header Mangler, v. 1.1.2
  *
  *    by Peter Nilsson <disptr@patriarkatet.se>
  *

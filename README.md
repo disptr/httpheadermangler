@@ -1,4 +1,4 @@
-# ![HTTP Header Mangler Icon](https://raw.githubusercontent.com/disptr/httpheadermangler/master/icon.png) HTTP Header Mangler
+# ![HTTP Header Mangler Icon](https://raw.githubusercontent.com/disptr/httpheadermangler/master/legacy/icon.png) HTTP Header Mangler
 
 HTTP Header Mangler is a Firefox add-on which inserts HTTP headers on a per host basis.
 
@@ -6,7 +6,7 @@ Matching hosts is done with either simple strings or regular expressions.
 
 Rules can have multiple headers apply to multiple hosts, or simply insert a single header for a single host. 
 
-## How to write a rules file
+## How to write rules
 
 A rule is made up of contiguous lines of text.
 
@@ -24,7 +24,7 @@ Comments are defined as lines starting with the `#` sign, and are ignored.
 
 Whitespace at the beginning and the end of a line is ignored. Consequently, indentation is ignored. Whitespace at the beginning and the end of a header name or value is also ignored, meaning it will be removed from said name or value.
 
-### Example rules file
+### Example of rules
 
 	example.com
 	.*regexp\d+
