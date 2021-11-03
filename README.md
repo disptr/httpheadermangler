@@ -8,7 +8,7 @@ Rules can have multiple headers apply to multiple hosts, or simply insert a sing
 
 ## Installation
 
-Using Firefox, install it from https://addons.mozilla.org/en-US/firefox/addon/http-header-mangler/.
+Using Firefox, install it from https://addons.mozilla.org/firefox/addon/http-header-mangler/
 
 ## How to write rules
 
